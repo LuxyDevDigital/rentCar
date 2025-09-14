@@ -1,0 +1,73 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  height: 118px;
+  padding: 29px 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 166px;
+  height: 87px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.logo_img {
+  width: 152px;
+  height: 62px;
+  flex-shrink: 0;
+  background: url("../assets/rentLogo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo_text {
+  width: 126px;
+  height: 40px;
+  text-align: center;
+  flex-shrink: 0;
+  color: #d4af37;
+  font-family: "Bonheur Royale";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.9px; /* 71.944% */
+  position: absolute;
+  left: 20px;
+  top: 80%;
+  transform: translateY(-50%);
+}
+
+.nav {
+  display: flex;
+  width: 481.37px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.active-nav {
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
+.nav_li:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+}
+
+.submit_btn {
+  height: 47.75px;
+  padding: 13px 26px;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  background: transparent;
+}

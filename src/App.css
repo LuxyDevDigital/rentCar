@@ -1,0 +1,20 @@
+.nav_link {
+  flex-shrink: 0;
+  color: #d4af37;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.nav_link:hover{
+  color: #ffd445;
+  transform: scale(1.1);
+}

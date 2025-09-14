@@ -1,0 +1,72 @@
+.footer {
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 40px 0px;
+  /* width: 100%; */
+  gap: 5%;
+}
+
+.f_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.f_s_title {
+  color: #d4af37;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  text-transform: capitalize;
+}
+
+.f_s_linkList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 11.125px;
+  flex-shrink: 0;
+}
+
+.min_section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.mobile_budgets {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile_budge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 24px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.07);
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+}
+
+.mobile_budge_text {
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.social_links {
+  display: flex;
+  justify-content: space-between;
+}
