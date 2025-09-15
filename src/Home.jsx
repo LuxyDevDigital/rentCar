@@ -136,9 +136,9 @@ export default function Home() {
       {/* Contact Section */}
       <section className="contact-section">
         <div className="contact-images">
-          <img src="/white-audi-suv.jpg" alt="White Audi SUV" />
-          <img src="/mountain-car.jpg" alt="Car in mountains" />
-          <img src="/yellow-jeep.jpg" alt="Yellow Jeep" />
+          <img src="/white-audi-suv.png" alt="White Audi SUV" />
+          <img src="/mountain-car.png" alt="Car in mountains" />
+          <img src="/yellow-jeep.png" alt="Yellow Jeep" />
         </div>
         <div className="contact-info">
           <h2>Have More Questions ? Don't Hesitate To Reach Us</h2>

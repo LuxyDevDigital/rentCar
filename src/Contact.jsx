@@ -9,6 +9,7 @@ const Contact = () => {
     <>
       <div className="contact-container">
         <Header />
+        <h1 className="contact-title">Contact Us</h1>
         <div className="contact-content">
           <div className="infos">
             <img src={logo} alt="logo" />
