@@ -9,7 +9,7 @@ const Header = () => {
         <span className="logo_text">Car Lux</span>
       </div>
       <div className="nav">
-        <LinkItem path="/" className={`nav_li ${window.location.pathname === "/" ? "active-nav" : ""}`}>Home</LinkItem>
+        <LinkItem path="/rentCar" className={`nav_li ${window.location.pathname === "/" ? "active-nav" : ""}`}>Home</LinkItem>
         <LinkItem path="/Cars" className={`nav_li ${window.location.pathname === "/Cars" ? "active-nav" : ""}`}>Cars</LinkItem>
         <LinkItem path="/About" className={`nav_li ${window.location.pathname === "/About" ? "active-nav" : ""}`}>About</LinkItem>
         <LinkItem path="/contact" className={`nav_li ${window.location.pathname === "/contact" ? "active-nav" : ""}`}>Contact</LinkItem>
