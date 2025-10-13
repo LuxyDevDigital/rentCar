@@ -36,12 +36,12 @@ export default function Home() {
         linkLabel={"Show All Brands →"}
         linkPath={"#"}>
         {[
-          { logo: "/audi-logo.jpg", name: "Audi" },
-          { logo: "/bmw-logo.jpg", name: "BMW" },
-          { logo: "/ford-oval-logo.jpg", name: "Ford" },
-          { logo: "/mercedes-benz-logo.jpg", name: "Mercedes Benz" },
-          { logo: "/peugeot-logo.jpg", name: "Peugeot" },
-          { logo: "/volkswagen-logo.jpg", name: "Volkswagen" },
+          { logo: "/rentCar/audi-logo.jpg", name: "Audi" },
+          { logo: "/rentCar/bmw-logo.jpg", name: "BMW" },
+          { logo: "/rentCar/ford-oval-logo.jpg", name: "Ford" },
+          { logo: "/rentCar/mercedes-benz-logo.jpg", name: "Mercedes Benz" },
+          { logo: "/rentCar/peugeot-logo.jpg", name: "Peugeot" },
+          { logo: "/rentCar/volkswagen-logo.jpg", name: "Volkswagen" },
         ].map((brand) => (
           <BrandCard key={brand.name} logo={brand.logo} name={brand.name} />
         ))}
@@ -53,7 +53,7 @@ export default function Home() {
         linkPath={"#"}>
         {[
           {
-            image: "/blue-nissan-suv.jpg",
+            image: "/rentCar/blue-nissan-suv.jpg",
             title: "New GLC - 2023",
             characteristics: ["50 Miles", "Petrol", "Automatic"],
             price: "MAD 850/Day",
@@ -61,7 +61,7 @@ export default function Home() {
             specialOffer: "New",
           },
           {
-            image: "/brown-ford-transit.jpg",
+            image: "/rentCar/brown-ford-transit.jpg",
             title: "Ford Transit - 2021",
             characteristics: ["2500 Miles", "Diesel", "Manual"],
             price: "MAD 220/Day",
@@ -69,7 +69,7 @@ export default function Home() {
             specialOffer: "Low mileage",
           },
           {
-            image: "/blue-c-class.jpg",
+            image: "/rentCar/blue-c-class.jpg",
             title: "C-Class - 2023",
             characteristics: ["50 Miles", "Petrol", "Automatic"],
             price: "MAD 1500/Day",
@@ -77,7 +77,7 @@ export default function Home() {
             specialOffer: "greate Price",
           },
           {
-            image: "/jeep-renegade.png",
+            image: "/rentCar/jeep-renegade.png",
             title: "Jeep Renegade M 2023",
             characteristics: ["15 Miles", "Petrol", "CVT"],
             price: "MAD 4000/Day",
@@ -104,7 +104,7 @@ export default function Home() {
               "Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn't go on our original designs.",
             authorName: "Leslie Alexander",
             authorRole: "Facebook",
-            authorImage: "/leslie-alexander-portrait.jpg",
+            authorImage: "/rentCar/leslie-alexander-portrait.jpg",
           },
           {
             title: "Awesome Design",
@@ -112,7 +112,7 @@ export default function Home() {
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             authorName: "Floyd Miles",
             authorRole: "Designer",
-            authorImage: "/floyd-miles-portrait.jpg",
+            authorImage: "/rentCar/floyd-miles-portrait.jpg",
           },
           {
             title: "Good Job",
@@ -120,7 +120,7 @@ export default function Home() {
               "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
             authorName: "Dianne Russell",
             authorRole: "Marketing",
-            authorImage: "/dianne-russell-portrait.jpg",
+            authorImage: "/rentCar/dianne-russell-portrait.jpg",
           },
         ].map((testimonial) => (
           <TestimonialCard
@@ -136,9 +136,9 @@ export default function Home() {
       {/* Contact Section */}
       <section className="contact-section">
         <div className="contact-images">
-          <img src="/white-audi-suv.png" alt="White Audi SUV" />
-          <img src="/mountain-car.png" alt="Car in mountains" />
-          <img src="/yellow-jeep.png" alt="Yellow Jeep" />
+          <img src="/rentCar/white-audi-suv.png" alt="White Audi SUV" />
+          <img src="/rentCar/mountain-car.png" alt="Car in mountains" />
+          <img src="/rentCar/yellow-jeep.png" alt="Yellow Jeep" />
         </div>
         <div className="contact-info">
           <h2>Have More Questions ? Don't Hesitate To Reach Us</h2>

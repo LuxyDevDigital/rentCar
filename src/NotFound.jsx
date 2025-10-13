@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <div className='notfound-container'>
         <h1 className='notfound-title'>404 Not Found</h1>
-        <LinkItem path={'/'}>Go to Home</LinkItem>
+        <LinkItem path={'/rentCar'}>Go to Home</LinkItem>
     </div>
   )
 }
