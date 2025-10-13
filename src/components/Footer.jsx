@@ -13,7 +13,7 @@ const Footer = ({}) => {
           { path: "/services", label: "Services" },
           { path: "/faq", label: "FAQ" },
           { path: "/terms", label: "Terms" },
-          { path: "contact", label: "Contact Us" },
+          { path: "/contact", label: "Contact Us" },
         ]}
       />
       <FooterSection
