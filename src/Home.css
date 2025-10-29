@@ -137,6 +137,7 @@ form {
   cursor: pointer;
   border: none;
   transition: all 0.3s ease;
+  letter-spacing: 2px;
 }
 
 .search-btn:hover {
@@ -274,6 +275,7 @@ form {
 
 .car-card {
   position: relative;
+  flex-shrink: 0;
   display: flex;
   width: 328px;
   padding-bottom: 0.11px;
@@ -464,6 +466,7 @@ form {
 
 .contact-info {
   flex: 1;
+  
 }
 
 .contact-info h2 {
@@ -491,8 +494,49 @@ form {
     padding: 2rem 1rem;
   }
 
+  .filter-container {
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+  }
+
+  .search-container {
+    height: 220px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .filter-option {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  .filter-option label {
+    text-align: left;
+  }
+
+  .filter-option select {
+    width: 68%;
+  }
+
+  .filter-option select option {
+    text-align: left;
+  }
+
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    display: flex;
+    margin-top: 30rem;
+    margin-left: 0rem;
+    gap: 40px;
   }
 
   .section-header {
@@ -503,6 +547,12 @@ form {
 
   .contact-section {
     flex-direction: column;
+    height: auto;
+  }
+
+  .contact-info {
+    text-align: center;
+    
   }
 
   .brands-section,
