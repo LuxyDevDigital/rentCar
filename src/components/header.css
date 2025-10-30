@@ -96,7 +96,8 @@
   left: 0;
   width: 250px;
   height: 100%;
-  background: #333;
+  background: #333333d0;
+  backdrop-filter: blur(5px);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -106,6 +107,7 @@
 }
 
 .side-nav a {
+  text-align: center;
   color: #fff;
   text-decoration: none;
   margin: 10px 0;
