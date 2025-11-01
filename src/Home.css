@@ -561,4 +561,9 @@ form {
   .contact-section {
     padding: 2rem 1rem;
   }
+
+  .mobile-responsive{
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
 }

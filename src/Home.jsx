@@ -34,7 +34,8 @@ export default function Home() {
       <HomeSection
         title={"Explore Our Premium Brands"}
         linkLabel={"Show All Brands →"}
-        linkPath={"#"}>
+        linkPath={"#"}
+        className={'mobile-responsive'}>
         {[
           { logo: "/rentCar/audi-logo.jpg", name: "Audi" },
           { logo: "/rentCar/bmw-logo.jpg", name: "BMW" },
@@ -50,7 +51,8 @@ export default function Home() {
       <HomeSection
         title={"Recently Added"}
         linkLabel={" View All →"}
-        linkPath={"#"}>
+        linkPath={"#"}
+        className={'mobile-responsive'}>
         {[
           {
             image: "/rentCar/blue-nissan-suv.jpg",
@@ -96,7 +98,7 @@ export default function Home() {
         ))}
       </HomeSection>
       {/* Testimonials */}
-      <HomeSection title={"What our customers say"}>
+      <HomeSection title={"What our customers say"} className={'mobile-responsive'}>
         {[
           {
             title: "Great Work",
