@@ -466,7 +466,6 @@ form {
 
 .contact-info {
   flex: 1;
-  
 }
 
 .contact-info h2 {
@@ -484,6 +483,13 @@ form {
   color: #abaaaa;
   font-size: 1.1rem;
   line-height: 1.6;
+}
+
+.mobile-responsive {
+  overflow-x: scroll;
+  scrollbar-color: transparent transparent; /* For Firefox */
+  flex-wrap: nowrap;
+  padding: 10px 0;
 }
 
 /* Responsive Design */
@@ -513,7 +519,6 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
   }
 
   .filter-option label {
@@ -552,7 +557,6 @@ form {
 
   .contact-info {
     text-align: center;
-    
   }
 
   .brands-section,
@@ -560,10 +564,5 @@ form {
   .testimonials,
   .contact-section {
     padding: 2rem 1rem;
-  }
-
-  .mobile-responsive{
-    overflow-x: scroll;
-    flex-wrap: nowrap;
   }
 }
